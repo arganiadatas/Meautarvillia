@@ -155,6 +155,17 @@ async function seedDatabase() {
       "Canasta Básica", "EMAE", "Desocupación", "Supermercados"
     ];
     
+    const descriptions: Record<string, string> = {
+      "Alquileres": "Indicador del alquiler promedio del país",
+      "Salarios": "Indice de crecimiento Salarial de Meautarvillia",
+      "Aprobación": "Indice de Aprobación gubernamental de todos los gobiernos",
+      "Inflación": "El índice de precios al consumidor (IPC) mide la variación de precios de los bienes y servicios representativos del gasto de consumo de los hogares.",
+      "Canasta Básica": "Establece el ingreso que un hogar tipo debe tener para satisfacer, por medio de la compra de bienes y servicios no alimentarios (vestimenta, educación, salud, etc.), un conjunto de necesidades consideradas esenciales.",
+      "EMAE": "El Estimador Mensual de Actividad Económica (EMAE) refleja la evolución mensual de la actividad económica del conjunto de los sectores productivos a nivel nacional.",
+      "Desocupación": "Presenta información sobre el comportamiento del mercado de trabajo, midiendo el porcentaje de la población económicamente activa que se encuentra sin empleo.",
+      "Supermercados": "Mide la evolución de las ventas a los consumidores finales en supermercados a precios corrientes. Es un indicador clave del consumo privado y la actividad económica interna."
+    };
+    
     const today = new Date();
     for (const s of series) {
       for (let i = 30; i >= 0; i--) {

@@ -4,11 +4,12 @@ import { createChart, ColorType, ISeriesApi } from 'lightweight-charts';
 interface ChartProps {
   data: { time: string; value: number }[];
   title?: string;
+  description?: string;
   color?: string;
   height?: number;
 }
 
-export function FinancialChart({ data, title, color = '#2962FF', height = 300 }: ChartProps) {
+export function FinancialChart({ data, title, description, color = '#2962FF', height = 300 }: ChartProps) {
   const chartContainerRef = useRef<HTMLDivElement>(null);
   const chartRef = useRef<ReturnType<typeof createChart> | null>(null);
 
@@ -66,7 +67,10 @@ export function FinancialChart({ data, title, color = '#2962FF', height = 300 }:
 
   return (
     <div className="w-full h-full flex flex-col glass-card rounded-xl overflow-hidden p-4">
-      {title && <h3 className="text-lg font-semibold text-white mb-4">{title}</h3>}
+      <div className="mb-4">
+        {title && <h3 className="text-lg font-semibold text-white">{title}</h3>}
+        {description && <p className="text-xs text-muted-foreground mt-1">{description}</p>}
+      </div>
       <div ref={chartContainerRef} className="w-full flex-grow" />
     </div>
   );
