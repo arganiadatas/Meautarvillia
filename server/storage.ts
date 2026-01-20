@@ -52,7 +52,7 @@ export class DatabaseStorage implements IStorage {
     if (rates.length === 0) {
       await this.createExchangeRate({
         type: "official",
-        buy: "1010850.00",
+        buy: "850.00",
         sell: "900.00",
         trend: "stable"
       });
@@ -121,7 +121,7 @@ export class DatabaseStorage implements IStorage {
         "Alquileres", "Salarios", "Aprobación", "Inflación", 
         "Canasta Básica", "EMAE", "Desocupación", "Supermercados"
       ];
-      
+
       const today = new Date();
       for (const s of series) {
         for (let i = 30; i >= 0; i--) {
