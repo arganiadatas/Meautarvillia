@@ -81,7 +81,7 @@ export class FileStorage {
           label: "Tasa Nominal Anual",
           value: "10%",
           category: "central_bank",
-          trend: "stable",
+          trend: "Posible Crisis",
           description: "Tasa de referencia del Banco Central"
         },
         {
@@ -95,18 +95,18 @@ export class FileStorage {
         {
           key: "reserves",
           label: "Reservas Internacionales",
-          value: "US$147,289 Millones",
+          value: "US$83,914 Millones",
           category: "central_bank",
           trend: "down",
-          description: "↓ 23,15%"
+          description: "↓ 43,03%"
         },
         {
           key: "public_debt",
           label: "Deuda Pública",
-          value: "$1.144 Mil Millones",
+          value: "$1.936 Mil Millones",
           category: "debt",
-          trend: "stable",
-          description: "0,59% del PBI"
+          trend: "↑",
+          description: "0,99% del PBI"
         },
         {
           key: "external_debt",
@@ -122,30 +122,23 @@ export class FileStorage {
       data.exchangeRates.push(
         {
           type: "Oficial",
-          buy: "350",
-          sell: "365",
-          trend: "stable",
+          buy: "270.80",
+          sell: "279.76",
+          trend: "↑",
           updatedAt: new Date().toISOString()
         },
         {
           type: "Blue",
-          buy: "980",
-          sell: "1000",
-          trend: "up",
+          buy: "278.50",
+          sell: "278.76",
+          trend: "↑",
           updatedAt: new Date().toISOString()
         },
         {
-          type: "MEP",
-          buy: "920",
-          sell: "935",
-          trend: "down",
-          updatedAt: new Date().toISOString()
-        },
-        {
-          type: "CCL",
-          buy: "950",
-          sell: "970",
-          trend: "up",
+          type: "Euro",
+          buy: "320.85",
+          sell: "329.95",
+          trend: "↑",
           updatedAt: new Date().toISOString()
         }
       );
@@ -154,8 +147,8 @@ export class FileStorage {
 
     if (data.market.length === 0) {
       data.market.push(
-        { symbol: "IDA MERVAL", price: "83983.17", changePercent: "0.41" },
-        { symbol: "JOYERIA", price: "171628.89", changePercent: "2.80" }
+        { symbol: "IDA MERVAL", price: "83,593.75", changePercent: "-0.20" },
+        { symbol: "JOYERIA", price: "174,266.03", changePercent: "2.80" }
       );
     }
 
@@ -191,8 +184,8 @@ export class FileStorage {
     if (data.news.length === 0) {
       data.news.push({
         id: randomUUID(),
-        title: "Nuevo anuncio económico",
-        content: "El gobierno anuncia nuevas medidas para estabilizar el mercado cambiario.",
+        title: "Industrias",
+        content: "Ind. Automotriz y Joyas dejará de exportar",
         source: "Oficial",
         publishedAt: new Date().toISOString()
       });
