@@ -33,8 +33,8 @@ function App() {
           
           <footer className="border-t border-white/5 bg-card/30 backdrop-blur-md py-8 mt-12">
             <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-              <p>© 2024 FinBoard.ar - Financial Intelligence Dashboard</p>
-              <p className="mt-2 text-xs opacity-60">Data is simulated for demonstration purposes.</p>
+              <p>© 2026 OFAE.Me - Oficina de Analisis Economicos</p>
+              <p className="mt-2 text-xs opacity-60">Datos oficiales de la República Meautarvillia.</p>
             </div>
           </footer>
         </div>

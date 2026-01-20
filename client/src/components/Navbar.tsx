@@ -8,10 +8,10 @@ export function Navbar() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-primary-foreground font-bold">
-              F
+              M
             </div>
             <span className="text-xl font-display font-bold text-white tracking-tight">
-              FinBoard<span className="text-primary">.ar</span>
+              OFAE<span className="text-primary">.me</span>
             </span>
           </div>
 
