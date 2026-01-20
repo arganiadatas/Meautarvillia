@@ -74,7 +74,6 @@ async function saveData(data: StorageData) {
 export class FileStorage {
   async seed() {
     const data = await loadData();
-
     if (data.indicators.length === 0) {
       data.indicators.push(
         {
@@ -116,6 +115,38 @@ export class FileStorage {
           category: "debt",
           trend: "stable",
           description: "Obligaciones con acreedores internacionales"
+        }
+      );
+    }
+    if (data.exchangeRates.length === 0) {
+      data.exchangeRates.push(
+        {
+          type: "Oficial",
+          buy: "350",
+          sell: "365",
+          trend: "stable",
+          updatedAt: new Date().toISOString()
+        },
+        {
+          type: "Blue",
+          buy: "980",
+          sell: "1000",
+          trend: "up",
+          updatedAt: new Date().toISOString()
+        },
+        {
+          type: "MEP",
+          buy: "920",
+          sell: "935",
+          trend: "down",
+          updatedAt: new Date().toISOString()
+        },
+        {
+          type: "CCL",
+          buy: "950",
+          sell: "970",
+          trend: "up",
+          updatedAt: new Date().toISOString()
         }
       );
     }

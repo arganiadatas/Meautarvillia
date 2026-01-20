@@ -1,1270 +1,1316 @@
 {
   "exchangeRates": [
     {
-      "type": "official",
-      "buy": "7850.00",
-      "sell": "900.00",
-      "trend": "stable"
+      "type": "Oficial",
+      "buy": "350",
+      "sell": "365",
+      "trend": "stable",
+      "updatedAt": "2026-01-20T08:54:05.370Z"
     },
     {
-      "type": "blue",
-      "buy": "3100.00",
-      "sell": "1150.00",
-      "trend": "up"
+      "type": "Blue",
+      "buy": "980",
+      "sell": "1000",
+      "trend": "up",
+      "updatedAt": "2026-01-20T08:54:05.371Z"
+    },
+    {
+      "type": "MEP",
+      "buy": "920",
+      "sell": "935",
+      "trend": "down",
+      "updatedAt": "2026-01-20T08:54:05.371Z"
+    },
+    {
+      "type": "CCL",
+      "buy": "950",
+      "sell": "970",
+      "trend": "up",
+      "updatedAt": "2026-01-20T08:54:05.371Z"
     }
   ],
   "indicators": [
     {
       "key": "tna",
       "label": "Tasa Nominal Anual",
-      "value": "10%"
+      "value": "10%",
+      "category": "central_bank",
+      "trend": "stable",
+      "description": "Tasa de referencia del Banco Central"
     },
     {
       "key": "gdp",
       "label": "PBI Anual",
-      "value": "$193.567.008 Millones"
+      "value": "$193.567.008 Millones",
+      "category": "central_bank",
+      "trend": "up",
+      "description": "Producto Bruto Interno estimado anual"
+    },
+    {
+      "key": "reserves",
+      "label": "Reservas Internacionales",
+      "value": "US$147,289 Millones",
+      "category": "central_bank",
+      "trend": "down",
+      "description": "↓ 23,15%"
+    },
+    {
+      "key": "public_debt",
+      "label": "Deuda Pública",
+      "value": "$1.144 Mil Millones",
+      "category": "debt",
+      "trend": "stable",
+      "description": "0,59% del PBI"
+    },
+    {
+      "key": "external_debt",
+      "label": "Deuda Externa",
+      "value": "$0,00",
+      "category": "debt",
+      "trend": "stable",
+      "description": "Obligaciones con acreedores internacionales"
     }
   ],
   "charts": [
     {
       "seriesName": "Alquileres",
       "time": "2025-12-21",
-      "value": "107.80"
+      "value": "136.25"
     },
     {
       "seriesName": "Alquileres",
       "time": "2025-12-22",
-      "value": "100.26"
+      "value": "81.52"
     },
     {
       "seriesName": "Alquileres",
       "time": "2025-12-23",
-      "value": "88.47"
+      "value": "144.53"
     },
     {
       "seriesName": "Alquileres",
       "time": "2025-12-24",
-      "value": "51.92"
+      "value": "139.78"
     },
     {
       "seriesName": "Alquileres",
       "time": "2025-12-25",
-      "value": "146.99"
+      "value": "103.99"
     },
     {
       "seriesName": "Alquileres",
       "time": "2025-12-26",
-      "value": "95.24"
+      "value": "149.40"
     },
     {
       "seriesName": "Alquileres",
       "time": "2025-12-27",
-      "value": "84.13"
+      "value": "103.48"
     },
     {
       "seriesName": "Alquileres",
       "time": "2025-12-28",
-      "value": "66.60"
+      "value": "97.69"
     },
     {
       "seriesName": "Alquileres",
       "time": "2025-12-29",
-      "value": "92.62"
+      "value": "120.38"
     },
     {
       "seriesName": "Alquileres",
+      "time": "2025-12-30",
+      "value": "122.92"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2025-12-31",
+      "value": "94.14"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2026-01-01",
+      "value": "59.89"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2026-01-02",
+      "value": "111.47"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2026-01-03",
+      "value": "81.90"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2026-01-04",
+      "value": "88.91"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2026-01-05",
+      "value": "122.42"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2026-01-06",
+      "value": "149.04"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2026-01-07",
+      "value": "95.03"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2026-01-08",
+      "value": "86.85"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2026-01-09",
+      "value": "78.26"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2026-01-10",
+      "value": "141.99"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2026-01-11",
+      "value": "74.01"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2026-01-12",
+      "value": "137.50"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2026-01-13",
+      "value": "94.10"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2026-01-14",
+      "value": "61.78"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2026-01-15",
+      "value": "122.83"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2026-01-16",
+      "value": "135.96"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2026-01-17",
+      "value": "147.81"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2026-01-18",
+      "value": "127.42"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2026-01-19",
+      "value": "70.26"
+    },
+    {
+      "seriesName": "Alquileres",
+      "time": "2026-01-20",
+      "value": "56.63"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2025-12-21",
+      "value": "100.32"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2025-12-22",
+      "value": "56.47"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2025-12-23",
+      "value": "124.94"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2025-12-24",
+      "value": "135.40"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2025-12-25",
+      "value": "131.60"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2025-12-26",
+      "value": "59.98"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2025-12-27",
+      "value": "110.22"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2025-12-28",
+      "value": "68.78"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2025-12-29",
+      "value": "59.92"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2025-12-30",
+      "value": "114.05"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2025-12-31",
+      "value": "64.58"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2026-01-01",
+      "value": "88.50"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2026-01-02",
+      "value": "105.68"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2026-01-03",
+      "value": "57.17"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2026-01-04",
+      "value": "130.30"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2026-01-05",
+      "value": "68.87"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2026-01-06",
+      "value": "121.84"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2026-01-07",
+      "value": "89.06"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2026-01-08",
+      "value": "82.02"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2026-01-09",
+      "value": "95.78"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2026-01-10",
+      "value": "51.45"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2026-01-11",
+      "value": "138.43"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2026-01-12",
+      "value": "70.89"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2026-01-13",
+      "value": "67.41"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2026-01-14",
+      "value": "131.87"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2026-01-15",
+      "value": "128.11"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2026-01-16",
+      "value": "141.66"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2026-01-17",
+      "value": "55.80"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2026-01-18",
+      "value": "70.71"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2026-01-19",
+      "value": "59.18"
+    },
+    {
+      "seriesName": "Salarios",
+      "time": "2026-01-20",
+      "value": "65.09"
+    },
+    {
+      "seriesName": "Aprobación",
+      "time": "2025-12-21",
+      "value": "75.74"
+    },
+    {
+      "seriesName": "Aprobación",
+      "time": "2025-12-22",
+      "value": "129.30"
+    },
+    {
+      "seriesName": "Aprobación",
+      "time": "2025-12-23",
+      "value": "62.27"
+    },
+    {
+      "seriesName": "Aprobación",
+      "time": "2025-12-24",
+      "value": "77.11"
+    },
+    {
+      "seriesName": "Aprobación",
+      "time": "2025-12-25",
+      "value": "72.62"
+    },
+    {
+      "seriesName": "Aprobación",
+      "time": "2025-12-26",
+      "value": "138.30"
+    },
+    {
+      "seriesName": "Aprobación",
+      "time": "2025-12-27",
+      "value": "58.04"
+    },
+    {
+      "seriesName": "Aprobación",
+      "time": "2025-12-28",
+      "value": "96.78"
+    },
+    {
+      "seriesName": "Aprobación",
+      "time": "2025-12-29",
+      "value": "86.17"
+    },
+    {
+      "seriesName": "Aprobación",
       "time": "2025-12-30",
       "value": "90.00"
     },
     {
-      "seriesName": "Alquileres",
+      "seriesName": "Aprobación",
       "time": "2025-12-31",
-      "value": "149.52"
+      "value": "134.39"
     },
     {
-      "seriesName": "Alquileres",
+      "seriesName": "Aprobación",
       "time": "2026-01-01",
-      "value": "73.08"
+      "value": "70.91"
     },
     {
-      "seriesName": "Alquileres",
+      "seriesName": "Aprobación",
       "time": "2026-01-02",
-      "value": "68.06"
+      "value": "125.23"
     },
     {
-      "seriesName": "Alquileres",
+      "seriesName": "Aprobación",
       "time": "2026-01-03",
-      "value": "69.58"
+      "value": "52.23"
     },
     {
-      "seriesName": "Alquileres",
+      "seriesName": "Aprobación",
       "time": "2026-01-04",
-      "value": "95.24"
+      "value": "85.06"
     },
     {
-      "seriesName": "Alquileres",
+      "seriesName": "Aprobación",
       "time": "2026-01-05",
-      "value": "111.49"
+      "value": "100.33"
     },
     {
-      "seriesName": "Alquileres",
+      "seriesName": "Aprobación",
       "time": "2026-01-06",
-      "value": "84.69"
+      "value": "87.60"
     },
     {
-      "seriesName": "Alquileres",
+      "seriesName": "Aprobación",
       "time": "2026-01-07",
-      "value": "120.27"
+      "value": "68.98"
     },
     {
-      "seriesName": "Alquileres",
+      "seriesName": "Aprobación",
       "time": "2026-01-08",
-      "value": "119.68"
+      "value": "99.96"
     },
     {
-      "seriesName": "Alquileres",
+      "seriesName": "Aprobación",
       "time": "2026-01-09",
-      "value": "124.83"
+      "value": "134.97"
     },
     {
-      "seriesName": "Alquileres",
+      "seriesName": "Aprobación",
       "time": "2026-01-10",
-      "value": "97.53"
+      "value": "127.37"
     },
     {
-      "seriesName": "Alquileres",
+      "seriesName": "Aprobación",
       "time": "2026-01-11",
-      "value": "101.44"
+      "value": "147.57"
     },
     {
-      "seriesName": "Alquileres",
+      "seriesName": "Aprobación",
       "time": "2026-01-12",
-      "value": "69.16"
+      "value": "141.18"
     },
     {
-      "seriesName": "Alquileres",
+      "seriesName": "Aprobación",
       "time": "2026-01-13",
-      "value": "90.06"
+      "value": "68.03"
     },
     {
-      "seriesName": "Alquileres",
+      "seriesName": "Aprobación",
       "time": "2026-01-14",
-      "value": "64.26"
+      "value": "72.61"
     },
     {
-      "seriesName": "Alquileres",
+      "seriesName": "Aprobación",
       "time": "2026-01-15",
-      "value": "87.54"
+      "value": "70.72"
     },
     {
-      "seriesName": "Alquileres",
+      "seriesName": "Aprobación",
       "time": "2026-01-16",
-      "value": "67.72"
+      "value": "68.10"
     },
     {
-      "seriesName": "Alquileres",
+      "seriesName": "Aprobación",
       "time": "2026-01-17",
-      "value": "52.74"
+      "value": "126.26"
     },
     {
-      "seriesName": "Alquileres",
+      "seriesName": "Aprobación",
       "time": "2026-01-18",
-      "value": "103.54"
-    },
-    {
-      "seriesName": "Alquileres",
-      "time": "2026-01-19",
-      "value": "122.65"
-    },
-    {
-      "seriesName": "Alquileres",
-      "time": "2026-01-20",
-      "value": "84.99"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2025-12-21",
-      "value": "138.13"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2025-12-22",
-      "value": "116.14"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2025-12-23",
-      "value": "78.41"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2025-12-24",
-      "value": "144.79"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2025-12-25",
-      "value": "86.68"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2025-12-26",
-      "value": "50.41"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2025-12-27",
-      "value": "91.92"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2025-12-28",
-      "value": "100.42"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2025-12-29",
-      "value": "73.94"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2025-12-30",
-      "value": "138.56"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2025-12-31",
-      "value": "115.67"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2026-01-01",
-      "value": "114.61"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2026-01-02",
-      "value": "68.67"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2026-01-03",
-      "value": "128.02"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2026-01-04",
-      "value": "134.81"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2026-01-05",
-      "value": "82.90"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2026-01-06",
-      "value": "138.07"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2026-01-07",
-      "value": "69.70"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2026-01-08",
-      "value": "87.00"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2026-01-09",
-      "value": "119.45"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2026-01-10",
       "value": "88.88"
     },
     {
-      "seriesName": "Salarios",
-      "time": "2026-01-11",
-      "value": "144.15"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2026-01-12",
-      "value": "100.26"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2026-01-13",
-      "value": "97.84"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2026-01-14",
-      "value": "106.24"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2026-01-15",
-      "value": "109.53"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2026-01-16",
-      "value": "119.78"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2026-01-17",
-      "value": "146.56"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2026-01-18",
-      "value": "90.36"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2026-01-19",
-      "value": "58.93"
-    },
-    {
-      "seriesName": "Salarios",
-      "time": "2026-01-20",
-      "value": "88.21"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2025-12-21",
-      "value": "148.67"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2025-12-22",
-      "value": "88.66"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2025-12-23",
-      "value": "147.28"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2025-12-24",
-      "value": "85.58"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2025-12-25",
-      "value": "91.69"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2025-12-26",
-      "value": "63.83"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2025-12-27",
-      "value": "67.38"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2025-12-28",
-      "value": "50.96"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2025-12-29",
-      "value": "107.51"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2025-12-30",
-      "value": "84.61"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2025-12-31",
-      "value": "146.66"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2026-01-01",
-      "value": "121.94"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2026-01-02",
-      "value": "139.12"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2026-01-03",
-      "value": "146.61"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2026-01-04",
-      "value": "128.75"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2026-01-05",
-      "value": "148.55"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2026-01-06",
-      "value": "134.48"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2026-01-07",
-      "value": "86.92"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2026-01-08",
-      "value": "58.09"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2026-01-09",
-      "value": "137.93"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2026-01-10",
-      "value": "90.97"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2026-01-11",
-      "value": "117.25"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2026-01-12",
-      "value": "101.07"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2026-01-13",
-      "value": "141.23"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2026-01-14",
-      "value": "115.61"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2026-01-15",
-      "value": "61.99"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2026-01-16",
-      "value": "99.24"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2026-01-17",
-      "value": "63.88"
-    },
-    {
-      "seriesName": "Aprobación",
-      "time": "2026-01-18",
-      "value": "54.20"
-    },
-    {
       "seriesName": "Aprobación",
       "time": "2026-01-19",
-      "value": "132.71"
+      "value": "53.77"
     },
     {
       "seriesName": "Aprobación",
       "time": "2026-01-20",
-      "value": "68.63"
+      "value": "53.48"
     },
     {
       "seriesName": "Inflación",
       "time": "2025-12-21",
-      "value": "52.07"
+      "value": "93.20"
     },
     {
       "seriesName": "Inflación",
       "time": "2025-12-22",
-      "value": "63.63"
+      "value": "78.34"
     },
     {
       "seriesName": "Inflación",
       "time": "2025-12-23",
-      "value": "140.32"
+      "value": "127.41"
     },
     {
       "seriesName": "Inflación",
       "time": "2025-12-24",
-      "value": "60.92"
+      "value": "146.48"
     },
     {
       "seriesName": "Inflación",
       "time": "2025-12-25",
-      "value": "52.06"
+      "value": "116.73"
     },
     {
       "seriesName": "Inflación",
       "time": "2025-12-26",
-      "value": "138.40"
+      "value": "122.71"
     },
     {
       "seriesName": "Inflación",
       "time": "2025-12-27",
-      "value": "113.48"
+      "value": "108.73"
     },
     {
       "seriesName": "Inflación",
       "time": "2025-12-28",
-      "value": "103.84"
+      "value": "71.90"
     },
     {
       "seriesName": "Inflación",
       "time": "2025-12-29",
-      "value": "62.92"
+      "value": "143.59"
     },
     {
       "seriesName": "Inflación",
       "time": "2025-12-30",
-      "value": "120.72"
+      "value": "98.85"
     },
     {
       "seriesName": "Inflación",
       "time": "2025-12-31",
-      "value": "101.68"
+      "value": "123.31"
     },
     {
       "seriesName": "Inflación",
       "time": "2026-01-01",
-      "value": "100.42"
+      "value": "99.51"
     },
     {
       "seriesName": "Inflación",
       "time": "2026-01-02",
-      "value": "63.82"
+      "value": "65.89"
     },
     {
       "seriesName": "Inflación",
       "time": "2026-01-03",
-      "value": "141.32"
+      "value": "117.88"
     },
     {
       "seriesName": "Inflación",
       "time": "2026-01-04",
-      "value": "55.69"
+      "value": "142.03"
     },
     {
       "seriesName": "Inflación",
       "time": "2026-01-05",
-      "value": "97.86"
+      "value": "141.75"
     },
     {
       "seriesName": "Inflación",
       "time": "2026-01-06",
-      "value": "76.03"
+      "value": "70.43"
     },
     {
       "seriesName": "Inflación",
       "time": "2026-01-07",
-      "value": "109.92"
-    },
-    {
-      "seriesName": "Inflación",
-      "time": "2026-01-08",
-      "value": "113.18"
-    },
-    {
-      "seriesName": "Inflación",
-      "time": "2026-01-09",
-      "value": "149.02"
-    },
-    {
-      "seriesName": "Inflación",
-      "time": "2026-01-10",
-      "value": "57.63"
-    },
-    {
-      "seriesName": "Inflación",
-      "time": "2026-01-11",
-      "value": "90.14"
-    },
-    {
-      "seriesName": "Inflación",
-      "time": "2026-01-12",
-      "value": "89.07"
-    },
-    {
-      "seriesName": "Inflación",
-      "time": "2026-01-13",
-      "value": "81.51"
-    },
-    {
-      "seriesName": "Inflación",
-      "time": "2026-01-14",
-      "value": "136.68"
-    },
-    {
-      "seriesName": "Inflación",
-      "time": "2026-01-15",
-      "value": "60.55"
-    },
-    {
-      "seriesName": "Inflación",
-      "time": "2026-01-16",
-      "value": "105.92"
-    },
-    {
-      "seriesName": "Inflación",
-      "time": "2026-01-17",
-      "value": "83.10"
-    },
-    {
-      "seriesName": "Inflación",
-      "time": "2026-01-18",
-      "value": "139.66"
-    },
-    {
-      "seriesName": "Inflación",
-      "time": "2026-01-19",
-      "value": "85.32"
-    },
-    {
-      "seriesName": "Inflación",
-      "time": "2026-01-20",
-      "value": "50.66"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2025-12-21",
-      "value": "100.75"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2025-12-22",
-      "value": "142.99"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2025-12-23",
-      "value": "66.13"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2025-12-24",
-      "value": "85.56"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2025-12-25",
-      "value": "99.59"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2025-12-26",
-      "value": "119.30"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2025-12-27",
-      "value": "118.35"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2025-12-28",
-      "value": "135.44"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2025-12-29",
-      "value": "109.03"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2025-12-30",
-      "value": "63.79"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2025-12-31",
-      "value": "86.64"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2026-01-01",
-      "value": "113.70"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2026-01-02",
-      "value": "55.05"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2026-01-03",
-      "value": "52.80"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2026-01-04",
-      "value": "135.67"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2026-01-05",
-      "value": "64.50"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2026-01-06",
-      "value": "146.84"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2026-01-07",
-      "value": "107.44"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2026-01-08",
-      "value": "92.22"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2026-01-09",
-      "value": "136.13"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2026-01-10",
-      "value": "133.35"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2026-01-11",
-      "value": "90.44"
-    },
-    {
-      "seriesName": "Canasta Básica",
-      "time": "2026-01-12",
       "value": "84.45"
     },
     {
+      "seriesName": "Inflación",
+      "time": "2026-01-08",
+      "value": "95.91"
+    },
+    {
+      "seriesName": "Inflación",
+      "time": "2026-01-09",
+      "value": "88.87"
+    },
+    {
+      "seriesName": "Inflación",
+      "time": "2026-01-10",
+      "value": "106.71"
+    },
+    {
+      "seriesName": "Inflación",
+      "time": "2026-01-11",
+      "value": "108.37"
+    },
+    {
+      "seriesName": "Inflación",
+      "time": "2026-01-12",
+      "value": "110.93"
+    },
+    {
+      "seriesName": "Inflación",
+      "time": "2026-01-13",
+      "value": "78.45"
+    },
+    {
+      "seriesName": "Inflación",
+      "time": "2026-01-14",
+      "value": "147.27"
+    },
+    {
+      "seriesName": "Inflación",
+      "time": "2026-01-15",
+      "value": "134.97"
+    },
+    {
+      "seriesName": "Inflación",
+      "time": "2026-01-16",
+      "value": "50.41"
+    },
+    {
+      "seriesName": "Inflación",
+      "time": "2026-01-17",
+      "value": "142.96"
+    },
+    {
+      "seriesName": "Inflación",
+      "time": "2026-01-18",
+      "value": "135.27"
+    },
+    {
+      "seriesName": "Inflación",
+      "time": "2026-01-19",
+      "value": "130.63"
+    },
+    {
+      "seriesName": "Inflación",
+      "time": "2026-01-20",
+      "value": "65.76"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2025-12-21",
+      "value": "141.27"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2025-12-22",
+      "value": "67.71"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2025-12-23",
+      "value": "131.83"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2025-12-24",
+      "value": "54.04"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2025-12-25",
+      "value": "58.49"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2025-12-26",
+      "value": "105.38"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2025-12-27",
+      "value": "50.75"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2025-12-28",
+      "value": "72.89"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2025-12-29",
+      "value": "126.88"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2025-12-30",
+      "value": "126.38"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2025-12-31",
+      "value": "78.55"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2026-01-01",
+      "value": "70.85"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2026-01-02",
+      "value": "64.94"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2026-01-03",
+      "value": "114.48"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2026-01-04",
+      "value": "98.28"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2026-01-05",
+      "value": "109.44"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2026-01-06",
+      "value": "92.45"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2026-01-07",
+      "value": "83.37"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2026-01-08",
+      "value": "112.31"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2026-01-09",
+      "value": "50.33"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2026-01-10",
+      "value": "78.47"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2026-01-11",
+      "value": "135.90"
+    },
+    {
+      "seriesName": "Canasta Básica",
+      "time": "2026-01-12",
+      "value": "137.33"
+    },
+    {
       "seriesName": "Canasta Básica",
       "time": "2026-01-13",
-      "value": "77.09"
+      "value": "59.59"
     },
     {
       "seriesName": "Canasta Básica",
       "time": "2026-01-14",
-      "value": "75.12"
+      "value": "125.73"
     },
     {
       "seriesName": "Canasta Básica",
       "time": "2026-01-15",
-      "value": "117.85"
+      "value": "129.41"
     },
     {
       "seriesName": "Canasta Básica",
       "time": "2026-01-16",
-      "value": "91.21"
+      "value": "95.85"
     },
     {
       "seriesName": "Canasta Básica",
       "time": "2026-01-17",
-      "value": "71.76"
+      "value": "95.73"
     },
     {
       "seriesName": "Canasta Básica",
       "time": "2026-01-18",
-      "value": "141.99"
+      "value": "148.86"
     },
     {
       "seriesName": "Canasta Básica",
       "time": "2026-01-19",
-      "value": "94.80"
+      "value": "73.13"
     },
     {
       "seriesName": "Canasta Básica",
       "time": "2026-01-20",
-      "value": "108.80"
+      "value": "89.27"
     },
     {
       "seriesName": "EMAE",
       "time": "2025-12-21",
-      "value": "71.02"
+      "value": "112.39"
     },
     {
       "seriesName": "EMAE",
       "time": "2025-12-22",
-      "value": "149.76"
+      "value": "102.00"
     },
     {
       "seriesName": "EMAE",
       "time": "2025-12-23",
-      "value": "71.85"
+      "value": "54.44"
     },
     {
       "seriesName": "EMAE",
       "time": "2025-12-24",
-      "value": "133.07"
+      "value": "146.23"
     },
     {
       "seriesName": "EMAE",
       "time": "2025-12-25",
-      "value": "134.12"
+      "value": "81.09"
     },
     {
       "seriesName": "EMAE",
       "time": "2025-12-26",
-      "value": "57.15"
+      "value": "124.85"
     },
     {
       "seriesName": "EMAE",
       "time": "2025-12-27",
-      "value": "116.28"
+      "value": "126.36"
     },
     {
       "seriesName": "EMAE",
       "time": "2025-12-28",
-      "value": "72.09"
+      "value": "129.68"
     },
     {
       "seriesName": "EMAE",
       "time": "2025-12-29",
-      "value": "65.52"
+      "value": "145.95"
     },
     {
       "seriesName": "EMAE",
       "time": "2025-12-30",
-      "value": "89.57"
+      "value": "73.22"
     },
     {
       "seriesName": "EMAE",
       "time": "2025-12-31",
-      "value": "147.42"
+      "value": "141.77"
     },
     {
       "seriesName": "EMAE",
       "time": "2026-01-01",
-      "value": "78.10"
+      "value": "70.52"
     },
     {
       "seriesName": "EMAE",
       "time": "2026-01-02",
-      "value": "101.06"
+      "value": "93.55"
     },
     {
       "seriesName": "EMAE",
       "time": "2026-01-03",
-      "value": "85.72"
+      "value": "52.66"
     },
     {
       "seriesName": "EMAE",
       "time": "2026-01-04",
-      "value": "123.30"
+      "value": "79.59"
     },
     {
       "seriesName": "EMAE",
       "time": "2026-01-05",
-      "value": "61.17"
+      "value": "83.09"
     },
     {
       "seriesName": "EMAE",
       "time": "2026-01-06",
-      "value": "144.25"
+      "value": "67.01"
     },
     {
       "seriesName": "EMAE",
       "time": "2026-01-07",
-      "value": "104.45"
+      "value": "130.67"
     },
     {
       "seriesName": "EMAE",
       "time": "2026-01-08",
-      "value": "115.53"
+      "value": "88.03"
     },
     {
       "seriesName": "EMAE",
       "time": "2026-01-09",
-      "value": "133.91"
+      "value": "114.08"
     },
     {
       "seriesName": "EMAE",
       "time": "2026-01-10",
-      "value": "130.08"
+      "value": "135.96"
     },
     {
       "seriesName": "EMAE",
       "time": "2026-01-11",
-      "value": "54.26"
+      "value": "74.64"
     },
     {
       "seriesName": "EMAE",
       "time": "2026-01-12",
-      "value": "145.84"
+      "value": "61.94"
     },
     {
       "seriesName": "EMAE",
       "time": "2026-01-13",
-      "value": "85.89"
+      "value": "114.01"
     },
     {
       "seriesName": "EMAE",
       "time": "2026-01-14",
-      "value": "112.34"
+      "value": "56.29"
     },
     {
       "seriesName": "EMAE",
       "time": "2026-01-15",
-      "value": "54.24"
+      "value": "106.90"
     },
     {
       "seriesName": "EMAE",
       "time": "2026-01-16",
-      "value": "56.09"
+      "value": "84.53"
     },
     {
       "seriesName": "EMAE",
       "time": "2026-01-17",
-      "value": "84.25"
+      "value": "100.58"
     },
     {
       "seriesName": "EMAE",
       "time": "2026-01-18",
-      "value": "124.94"
+      "value": "121.79"
     },
     {
       "seriesName": "EMAE",
       "time": "2026-01-19",
-      "value": "112.73"
+      "value": "54.52"
     },
     {
       "seriesName": "EMAE",
       "time": "2026-01-20",
-      "value": "115.39"
+      "value": "91.90"
     },
     {
       "seriesName": "Desocupación",
       "time": "2025-12-21",
-      "value": "144.20"
+      "value": "67.10"
     },
     {
       "seriesName": "Desocupación",
       "time": "2025-12-22",
-      "value": "98.17"
+      "value": "80.77"
     },
     {
       "seriesName": "Desocupación",
       "time": "2025-12-23",
-      "value": "109.49"
+      "value": "137.56"
     },
     {
       "seriesName": "Desocupación",
       "time": "2025-12-24",
-      "value": "146.03"
+      "value": "99.54"
     },
     {
       "seriesName": "Desocupación",
       "time": "2025-12-25",
-      "value": "107.59"
+      "value": "128.87"
     },
     {
       "seriesName": "Desocupación",
       "time": "2025-12-26",
-      "value": "59.92"
+      "value": "98.64"
     },
     {
       "seriesName": "Desocupación",
       "time": "2025-12-27",
-      "value": "124.15"
+      "value": "125.97"
     },
     {
       "seriesName": "Desocupación",
       "time": "2025-12-28",
-      "value": "121.05"
+      "value": "62.09"
     },
     {
       "seriesName": "Desocupación",
       "time": "2025-12-29",
-      "value": "54.33"
+      "value": "97.47"
     },
     {
       "seriesName": "Desocupación",
       "time": "2025-12-30",
-      "value": "119.52"
+      "value": "84.39"
     },
     {
       "seriesName": "Desocupación",
       "time": "2025-12-31",
-      "value": "78.92"
+      "value": "65.51"
     },
     {
       "seriesName": "Desocupación",
       "time": "2026-01-01",
-      "value": "51.30"
+      "value": "105.16"
     },
     {
       "seriesName": "Desocupación",
       "time": "2026-01-02",
-      "value": "114.53"
+      "value": "85.87"
     },
     {
       "seriesName": "Desocupación",
       "time": "2026-01-03",
-      "value": "50.23"
+      "value": "139.59"
     },
     {
       "seriesName": "Desocupación",
       "time": "2026-01-04",
-      "value": "51.34"
+      "value": "72.02"
     },
     {
       "seriesName": "Desocupación",
       "time": "2026-01-05",
-      "value": "115.73"
+      "value": "141.22"
     },
     {
       "seriesName": "Desocupación",
       "time": "2026-01-06",
-      "value": "148.09"
+      "value": "106.81"
     },
     {
       "seriesName": "Desocupación",
       "time": "2026-01-07",
-      "value": "86.50"
+      "value": "102.94"
     },
     {
       "seriesName": "Desocupación",
       "time": "2026-01-08",
-      "value": "138.90"
+      "value": "132.56"
     },
     {
       "seriesName": "Desocupación",
       "time": "2026-01-09",
-      "value": "121.90"
+      "value": "90.63"
     },
     {
       "seriesName": "Desocupación",
       "time": "2026-01-10",
-      "value": "122.86"
+      "value": "83.07"
     },
     {
       "seriesName": "Desocupación",
       "time": "2026-01-11",
-      "value": "116.09"
+      "value": "55.50"
     },
     {
       "seriesName": "Desocupación",
       "time": "2026-01-12",
-      "value": "97.56"
+      "value": "57.71"
     },
     {
       "seriesName": "Desocupación",
       "time": "2026-01-13",
-      "value": "94.30"
+      "value": "149.24"
     },
     {
       "seriesName": "Desocupación",
       "time": "2026-01-14",
-      "value": "87.49"
+      "value": "75.88"
     },
     {
       "seriesName": "Desocupación",
       "time": "2026-01-15",
-      "value": "58.06"
+      "value": "94.02"
     },
     {
       "seriesName": "Desocupación",
       "time": "2026-01-16",
-      "value": "70.55"
+      "value": "122.34"
     },
     {
       "seriesName": "Desocupación",
       "time": "2026-01-17",
-      "value": "148.60"
+      "value": "76.42"
     },
     {
       "seriesName": "Desocupación",
       "time": "2026-01-18",
-      "value": "87.98"
+      "value": "125.09"
     },
     {
       "seriesName": "Desocupación",
       "time": "2026-01-19",
-      "value": "68.51"
+      "value": "149.34"
     },
     {
       "seriesName": "Desocupación",
       "time": "2026-01-20",
-      "value": "84.48"
+      "value": "84.51"
     },
     {
       "seriesName": "Supermercados",
       "time": "2025-12-21",
-      "value": "141.68"
+      "value": "58.38"
     },
     {
       "seriesName": "Supermercados",
       "time": "2025-12-22",
-      "value": "117.43"
+      "value": "53.14"
     },
     {
       "seriesName": "Supermercados",
       "time": "2025-12-23",
-      "value": "97.42"
+      "value": "88.57"
     },
     {
       "seriesName": "Supermercados",
       "time": "2025-12-24",
-      "value": "123.38"
+      "value": "106.99"
     },
     {
       "seriesName": "Supermercados",
       "time": "2025-12-25",
-      "value": "52.70"
+      "value": "81.12"
     },
     {
       "seriesName": "Supermercados",
       "time": "2025-12-26",
-      "value": "82.86"
+      "value": "58.28"
     },
     {
       "seriesName": "Supermercados",
       "time": "2025-12-27",
-      "value": "95.76"
+      "value": "56.64"
     },
     {
       "seriesName": "Supermercados",
       "time": "2025-12-28",
-      "value": "135.24"
+      "value": "81.15"
     },
     {
       "seriesName": "Supermercados",
       "time": "2025-12-29",
-      "value": "144.49"
+      "value": "143.21"
     },
     {
       "seriesName": "Supermercados",
       "time": "2025-12-30",
-      "value": "122.50"
+      "value": "147.04"
     },
     {
       "seriesName": "Supermercados",
       "time": "2025-12-31",
-      "value": "58.08"
+      "value": "133.77"
     },
     {
       "seriesName": "Supermercados",
       "time": "2026-01-01",
-      "value": "122.23"
+      "value": "149.96"
     },
     {
       "seriesName": "Supermercados",
       "time": "2026-01-02",
-      "value": "73.06"
+      "value": "141.60"
     },
     {
       "seriesName": "Supermercados",
       "time": "2026-01-03",
-      "value": "74.43"
+      "value": "67.59"
     },
     {
       "seriesName": "Supermercados",
       "time": "2026-01-04",
-      "value": "112.91"
+      "value": "128.96"
     },
     {
       "seriesName": "Supermercados",
       "time": "2026-01-05",
-      "value": "75.99"
+      "value": "133.74"
     },
     {
       "seriesName": "Supermercados",
       "time": "2026-01-06",
-      "value": "56.47"
+      "value": "61.12"
     },
     {
       "seriesName": "Supermercados",
       "time": "2026-01-07",
-      "value": "117.63"
+      "value": "97.77"
     },
     {
       "seriesName": "Supermercados",
       "time": "2026-01-08",
-      "value": "116.58"
+      "value": "79.89"
     },
     {
       "seriesName": "Supermercados",
       "time": "2026-01-09",
-      "value": "94.11"
+      "value": "110.45"
     },
     {
       "seriesName": "Supermercados",
       "time": "2026-01-10",
-      "value": "60.12"
+      "value": "96.52"
     },
     {
       "seriesName": "Supermercados",
       "time": "2026-01-11",
-      "value": "51.96"
+      "value": "112.69"
     },
     {
       "seriesName": "Supermercados",
       "time": "2026-01-12",
-      "value": "134.49"
+      "value": "124.33"
     },
     {
       "seriesName": "Supermercados",
       "time": "2026-01-13",
-      "value": "125.14"
+      "value": "110.47"
     },
     {
       "seriesName": "Supermercados",
       "time": "2026-01-14",
-      "value": "89.39"
+      "value": "106.18"
     },
     {
       "seriesName": "Supermercados",
       "time": "2026-01-15",
-      "value": "86.46"
+      "value": "97.02"
     },
     {
       "seriesName": "Supermercados",
       "time": "2026-01-16",
-      "value": "87.34"
+      "value": "121.87"
     },
     {
       "seriesName": "Supermercados",
       "time": "2026-01-17",
-      "value": "109.13"
+      "value": "146.50"
     },
     {
       "seriesName": "Supermercados",
       "time": "2026-01-18",
-      "value": "99.11"
+      "value": "70.29"
     },
     {
       "seriesName": "Supermercados",
       "time": "2026-01-19",
-      "value": "82.99"
+      "value": "81.43"
     },
     {
       "seriesName": "Supermercados",
       "time": "2026-01-20",
-      "value": "81.99"
+      "value": "136.98"
     }
   ],
   "market": [
@@ -1281,11 +1327,11 @@
   ],
   "news": [
     {
-      "id": "78dfdebe-3eb6-4239-8e1a-5640651b0125",
+      "id": "a282223a-0065-4e41-98ba-2b0f3c60f854",
       "title": "Nuevo anuncio económico",
       "content": "El gobierno anuncia nuevas medidas para estabilizar el mercado cambiario.",
       "source": "Oficial",
-      "publishedAt": "2026-01-20T08:16:08.974Z"
+      "publishedAt": "2026-01-20T08:50:35.351Z"
     }
   ]
 }

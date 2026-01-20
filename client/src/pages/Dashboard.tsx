@@ -44,7 +44,7 @@ export default function Dashboard() {
       {/* Exchange Rates Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {rates?.map((rate) => (
-          <div key={rate.id} className="glass-card p-6 rounded-xl relative overflow-hidden group">
+          <div key={rate.type} className="glass-card p-6 rounded-xl relative overflow-hidden group">
             <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
               <TrendingUp className="w-16 h-16" />
             </div>
@@ -83,7 +83,7 @@ export default function Dashboard() {
             
             <div className="grid grid-cols-1 gap-3">
               {indicators?.filter(i => i.category === 'central_bank').map(indicator => (
-                <div key={indicator.id} className="glass-card p-4 rounded-lg flex justify-between items-center">
+                <div key={indicator.key} className="glass-card p-4 rounded-lg flex justify-between items-center">
                   <div>
                     <p className="text-sm text-muted-foreground">{indicator.label}</p>
                     <p className="text-lg font-bold font-mono text-white">{indicator.value}</p>
@@ -110,7 +110,7 @@ export default function Dashboard() {
             
             <div className="grid grid-cols-1 gap-3">
               {indicators?.filter(i => i.category === 'debt').map(indicator => (
-                <div key={indicator.id} className="glass-card p-4 rounded-lg">
+                <div key={indicator.key} className="glass-card p-4 rounded-lg">
                   <div className="flex justify-between items-start mb-1">
                     <p className="text-sm text-muted-foreground">{indicator.label}</p>
                     <p className="text-lg font-bold font-mono text-white">{indicator.value}</p>

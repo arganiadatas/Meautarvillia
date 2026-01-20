@@ -36,7 +36,16 @@ export const api = {
       method: 'GET' as const,
       path: '/api/indicators',
       responses: {
-        200: z.array(z.custom<typeof economicIndicators.$inferSelect>()),
+        200: z.array(
+          z.object({
+            key: z.string(),
+            label: z.string(),
+            value: z.string(),
+            category: z.string().optional(),
+            trend: z.string().optional(),
+            description: z.string().optional(),
+          })
+        ),
       },
     },
   },
