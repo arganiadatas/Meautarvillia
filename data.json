@@ -2,39 +2,39 @@
   "exchangeRates": [
     {
       "type": "Oficial",
-      "buy": "270.80",
-      "sell": "279.76",
-      "trend": "↑",
-      "updatedAt": "2026-01-20T09:28:04.561Z"
+      "buy": "319.28",
+      "sell": "298.80",
+      "trend": "up",
+      "updatedAt": "2026-01-21T18:00:00.000Z"
     },
     {
       "type": "Blue",
-      "buy": "278.50",
-      "sell": "278.76",
-      "trend": "↑",
-      "updatedAt": "2026-01-20T09:28:04.561Z"
+      "buy": "301.43",
+      "sell": "289.54",
+      "trend": "up",
+      "updatedAt": "2026-01-21T18:00:00.000Z"
     },
     {
       "type": "Euro",
-      "buy": "320.85",
-      "sell": "329.95",
-      "trend": "↑",
-      "updatedAt": "2026-01-20T09:28:04.561Z"
+      "buy": "374.28",
+      "sell": "356.98",
+      "trend": "up",
+      "updatedAt": "2026-01-21T18:00:00.000Z"
     }
   ],
   "indicators": [
     {
       "key": "tna",
       "label": "Tasa Nominal Anual",
-      "value": "10%",
+      "value": "40%",
       "category": "central_bank",
-      "trend": "Posible Crisis",
+      "trend": "Aumentó",
       "description": "Tasa de referencia del Banco Central"
     },
     {
       "key": "gdp",
       "label": "PBI Anual",
-      "value": "$193.567.008 Millones",
+      "value": "$195.332.948 Millones",
       "category": "central_bank",
       "trend": "up",
       "description": "Producto Bruto Interno estimado anual"
@@ -42,18 +42,18 @@
     {
       "key": "reserves",
       "label": "Reservas Internacionales",
-      "value": "US$83,914 Millones",
+      "value": "US$68,757 Millones",
       "category": "central_bank",
       "trend": "down",
-      "description": "↓ 43,03%"
+      "description": "↓ 18,06%"
     },
     {
       "key": "public_debt",
       "label": "Deuda Pública",
-      "value": "$1.936 Mil Millones",
+      "value": "$2.585 Mil Millones",
       "category": "debt",
-      "trend": "↑",
-      "description": "0,99% del PBI"
+      "trend": "up",
+      "description": "1,32% del PBI"
     },
     {
       "key": "external_debt",
@@ -172,9 +172,16 @@
     {
       "id": "f432efc4-67a7-4d39-a7b6-f2f689807821",
       "title": "Industrias",
+      "content": "La Administración de las Naciones Simuladas ha intervenido en el gobierno nacional.",
+      "source": "ANSI",
+      "publishedAt": "2026-01-20T09:28:04.562Z"
+    },
+    {
+      "id": "f432efc4-67a7-4d39-a7b6-f2f689807821",
+      "title": "Industrias",
       "content": "Ind. Automotriz y Joyas dejará de exportar",
       "source": "Oficial",
       "publishedAt": "2026-01-20T09:28:04.562Z"
-    }
+    },
   ]
 }
